@@ -1,3 +1,6 @@
+body{
+  margin: 0px;
+}
 .container-header {
   display: flex;
   background: #3c3a39;
@@ -560,24 +563,25 @@ h3#greetings {
   margin: 20px 20px;
 }
 
-.desktop_headicons{
+.desktop_headicons {
   display: none;
 }
 
-@media only screen and (min-width: 769px){
-  .container-header{
+@media only screen and (min-width: 769px) {
+  .container-header {
     width: 100%;
+    height: 72px;
   }
 
-  .union{
+  .union {
     display: none;
   }
 
-  .desktop_headicons{
+  .desktop_headicons {
     display: flex;
   }
 
-  .desktop_headicons{
+  .desktop_headicons {
     display: flex;
     margin-left: auto;
     margin-right: 150px;
@@ -590,17 +594,69 @@ h3#greetings {
     line-height: 20px;
   }
 
-  .mylogo{
+  .mylogo {
     margin-left: 120px;
   }
 
-  .header_btn{
+  .header_btn {
     color: #fff;
     text-decoration: none;
   }
 
-  #mail{
+  #mail {
     width: 24px;
-    height:24px;
+    height: 24px;
+  }
+
+  .container-headline {
+    flex-direction: column;
+    height: 870px;
+    width: 100%;
+    background-image: url(/attributes/Group.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -1pc;
+  }
+
+  #greetings,
+  #intro1,
+  #intro2 {
+
+    position: relative;
+    left: 143px;
+    top: 72px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .contacts {
+    flex-direction: column;
+    position: relative;
+    bottom: 240px;
+  }
+
+  h3#greetings {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    width: 466px;
+    height: 160px;
+  }
+
+  #intro1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    width: 566px;
+    height: 24px;
+  }
+
+  #intor2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 566px;
+    height: 123px;
   }
 }
