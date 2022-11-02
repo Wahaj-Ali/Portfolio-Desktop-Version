@@ -6,7 +6,7 @@
 
 .mylogo {
   height: fit-content;
-  width: 61px;
+  width: 50px;
 }
 
 #name {
@@ -558,4 +558,49 @@ h3#greetings {
   border: 1px solid #979493;
   width: 320px;
   margin: 20px 20px;
+}
+
+.desktop_headicons{
+  display: none;
+}
+
+@media only screen and (min-width: 769px){
+  .container-header{
+    width: 100%;
+  }
+
+  .union{
+    display: none;
+  }
+
+  .desktop_headicons{
+    display: flex;
+  }
+
+  .desktop_headicons{
+    display: flex;
+    margin-left: auto;
+    margin-right: 150px;
+    gap: 25px;
+    align-items: center;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mylogo{
+    margin-left: 120px;
+  }
+
+  .header_btn{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #mail{
+    width: 24px;
+    height:24px;
+  }
 }
