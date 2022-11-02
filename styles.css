@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
 .container-header {
   display: flex;
   background: #3c3a39;
