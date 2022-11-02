@@ -1,4 +1,7 @@
-
+body {
+  overflow-x :hidden;
+  overflow-y :scroll;
+}
 .container-header {
   display: flex;
   background: #3c3a39;
@@ -452,12 +455,6 @@ h3#greetings {
   transform: rotate(-45deg);
 }
 
-/* #framework_sec {
-  color: #fff;
-  display: grid;
-  padding: 0 57px;
-} */
-
 #circle {
   width: 18px;
   height: 18px;
@@ -471,12 +468,6 @@ h3#greetings {
   align-items: baseline;
   margin-left: 55px;
 }
-
-/* #skills_sec {
-  color: #fff;
-  display: grid;
-  padding: 0 57px;
-} */
 
 .contact {
   background: #fff;
@@ -569,6 +560,7 @@ h3#greetings {
 @media only screen and (min-width: 769px) {
   body {
     background-color: #e5e5e5;
+    margin: 0px;
   }
 
   .container-header {
@@ -600,6 +592,10 @@ h3#greetings {
   .header_btn {
     color: #fff;
     text-decoration: none;
+  }
+
+  .desktop_headicons :hover {
+    text-decoration: underline;
   }
 
   #mail {
