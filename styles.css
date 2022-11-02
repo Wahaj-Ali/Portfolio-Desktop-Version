@@ -1,6 +1,3 @@
-body {
-  margin: 0px;
-}
 
 .container-header {
   display: flex;
@@ -93,7 +90,6 @@ h3#greetings {
   font-size: 16px;
   line-height: 24px;
   flex: none;
-  order: 2;
   flex-grow: 0;
   padding-left: 24px;
   padding-top: 12px;
@@ -404,7 +400,7 @@ h3#greetings {
   margin-right: 20px;
 }
 
-#lang_use {
+.lang_use {
   width: 164px;
   height: 24px;
   color: #fff;
@@ -420,7 +416,7 @@ h3#greetings {
   gap: inherit;
 }
 
-#artc_lang {
+.artc_lang {
   color: #fff;
   display: grid;
   padding: 0 57px;
@@ -456,11 +452,11 @@ h3#greetings {
   transform: rotate(-45deg);
 }
 
-#framework_sec {
+/* #framework_sec {
   color: #fff;
   display: grid;
   padding: 0 57px;
-}
+} */
 
 #circle {
   width: 18px;
@@ -476,11 +472,11 @@ h3#greetings {
   margin-left: 55px;
 }
 
-#skills_sec {
+/* #skills_sec {
   color: #fff;
   display: grid;
   padding: 0 57px;
-}
+} */
 
 .contact {
   background: #fff;
@@ -492,6 +488,7 @@ h3#greetings {
 
 .contact p {
   color: #172b4d;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -522,6 +519,7 @@ h3#greetings {
   width: 310px;
   padding: 10px 24px;
   font-family: 'Inter', sans-serif;
+  margin-left: 10px;
 }
 
 #divider1 {
@@ -561,7 +559,7 @@ h3#greetings {
 #divider2 {
   border: 1px solid #979493;
   width: 320px;
-  margin: 20px 20px;
+  margin: 18px 20px;
 }
 
 .desktop_headicons {
@@ -569,9 +567,10 @@ h3#greetings {
 }
 
 @media only screen and (min-width: 769px) {
-  body{
+  body {
     background-color: #e5e5e5;
   }
+
   .container-header {
     width: 100%;
     height: 72px;
@@ -770,8 +769,9 @@ h3#greetings {
     background-size: cover;
     width: 369px;
     height: 435px;
-    position: relative;
-    left: 121.5px;
+    position: absolute;
+    left: 141.5px;
+    top: 1643px;
   }
 
   .project_descp1 {
@@ -842,10 +842,151 @@ h3#greetings {
     background-image: url(/attributes/prjct3.png);
   }
 
+  .about_me {
+    height: 1195px;
+    width: 100%;
+    background-image: url(/attributes/about\ me\ desk.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 8pc;
+  }
+
+  #about_text {
+    position: relative;
+    left: 142px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  #intro_aboutme {
+    position: relative;
+    left: 142px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 566px;
+    height: 123px;
+  }
+
+  #resume-btn {
+    position: relative;
+    left: 142px;
+    top: 54px;
+    width: 167px;
+    min-height: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #divider {
+    position: relative;
+    width: 1156px;
+  }
+
+  /* #lang_use {
+    position: relative;
+    top: 25px;
+    left: 20px;
+  } */
+
+  #lang_sec {
+    position: absolute;
+    top: 3297px;
+    left: 157px;
+  }
+
+  .artc_lang {
+    position: absolute;
+    left: 80px;
+    top: 3369px;
+  }
+
+  #fram_sec {
+    position: absolute;
+    top: 3319px;
+    left: 624px;
+  }
+
+  #framework_sec {
+    display: flex;
+    position: absolute;
+    top: 3366px;
+    left: 520px;
+  }
+
+  #skill {
+    display: flex;
+    position: absolute;
+    top: 3292px;
+    left: 1016px;
+  }
+
+  #skills_sec {
+    display: flex;
+    position: absolute;
+    top: 3366px;
+    left: 997px;
+    ;
+  }
+
+  .lang_btn {
+    justify-content: flex-start;
+  }
+
+  .contact {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact p {
+    width: 455px;
+    height: 256px;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 52px;
+    text-align: left;
+    position: relative;
+    top: 130px;
+    left: 135px;
+  }
+
+  #form {
+    width: 684px;
+    height: 330px;
+    position: absolute;
+    top: 4005px;
+    left: 675px;
+    font-weight: 700;
+  }
+
+  #message {
+    margin-left: 18px;
+  }
+
+  #getintouch_btn {
+    margin-left: 18px;
+  }
+
+  #divider2 {
+    width: 1440px;
+    position: absolute;
+    top: 4453px;
+  }
+
+  #end {
+    flex-direction: row;
+    position: relative;
+    bottom: 60px;
+    left: 620px;
+  }
+
 }
 
- @media only screen and (min-width:321px) and (max-width:768px) {
-  .desktop_projects{
+@media only screen and (min-width:321px) and (max-width:768px) {  
+  .desktop_projects {
     display: none;
   }
-} 
+}
