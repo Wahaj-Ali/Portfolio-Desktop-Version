@@ -283,6 +283,8 @@ h3#greetings {
   display: flex;
   gap: 18px;
   margin-left: -25px;
+  position: relative;
+  top: 22px;
 }
 
 #lang2 {
@@ -566,7 +568,7 @@ h3#greetings {
   display: grid;
   align-items: center;
   width: 375px;
-  margin: 0px 20px;
+  margin: 0.1px 20px;
 }
 
 .project_descp1 {
@@ -593,11 +595,6 @@ h3#greetings {
   position: relative;
   top: 38px;
   left: 16px;
-}
-
-.lang_container_2 {
-  position: relative;
-  top: 22px;
 }
 
 .project {
@@ -1013,8 +1010,3 @@ h3#greetings {
   }
 }
 
-/* @media only screen and (min-width: 321px) and (max-width: 768px) {
-  .desktop_projects {
-    display: none;
-  }
-} */
