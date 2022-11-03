@@ -1,4 +1,3 @@
-
 body {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -329,15 +328,19 @@ h3#greetings {
 }
 
 #projects-btn2 {
-  width: auto;
+  width: 327px;
   display: flex;
   justify-content: center;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  height: 60px;
+  height: 40px;
   margin-top: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  position: relative;
+  top: 10px;
 }
 
 .about_me {
@@ -559,6 +562,52 @@ h3#greetings {
   display: none;
 }
 
+.desktop_projects {
+  display: grid;
+  align-items: center;
+  width: 375px;
+  margin: 0px 20px;
+}
+
+.project_descp1 {
+  width: 295px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  position: relative;
+  top: 56px;
+  left: 16px;
+}
+
+.project_detail {
+  width: 295px;
+  height: 87px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  position: relative;
+  top: 38px;
+  left: 16px;
+}
+
+.lang_container_2 {
+  position: relative;
+  top: 22px;
+}
+
+.project {
+  background-image: url(/attributes/work-image-1.png);
+  background-repeat: round;
+  width: 327px;
+  height: 386px;
+  position: relative;
+}
+
 @media only screen and (min-width: 769px) {
   body {
     background-color: #e5e5e5;
@@ -638,6 +687,10 @@ h3#greetings {
     line-height: 82px;
     width: 466px;
     height: 160px;
+  }
+
+  #projects-btn2 {
+    display: none;
   }
 
   #intro1 {
@@ -960,8 +1013,8 @@ h3#greetings {
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 768px) {
+/* @media only screen and (min-width: 321px) and (max-width: 768px) {
   .desktop_projects {
     display: none;
   }
-}
+} */
