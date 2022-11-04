@@ -787,12 +787,6 @@ h3#greetings {
     transition: background-color 1s, transform 1s;
   }
 
-  #projects-btn1:hover {
-    background-color: #172b4d;
-    opacity: 0.7;
-  }
-
-
   .works {
     display: none;
   }
