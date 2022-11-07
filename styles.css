@@ -655,7 +655,7 @@ h3#greetings {
     flex-direction: column;
     height: 870px;
     width: 100%;
-    background-image: url(/attributes/Group.png);
+    background-image: url(/attributes/group.png);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: -1pc;
@@ -879,7 +879,7 @@ h3#greetings {
   .about_me {
     height: 1195px;
     width: 100%;
-    background-image: url(/attributes/about\ me\ desk.svg);
+    background-image: url(/attributes/aboutdesktop.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 8pc;
