@@ -50,7 +50,7 @@ p#name {
   background-color: black;
   flex-direction: column;
   width: 370px;
-  background-image: url(/attributes/illustration-about-me-mobile.png);
+  background-image: url(/attributes/aboutmemobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 24pc;
@@ -349,7 +349,7 @@ h3#greetings {
   background-color: black;
   width: 370px;
   height: 1695px;
-  background-image: url(/attributes/illustration-about-me-mobile.png);
+  background-image: url(/attributes/aboutmemobile.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 24pc;
