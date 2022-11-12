@@ -11,7 +11,9 @@
 - HTML, CSS
 - VS Code
 
+## Project Presentation
 
+- Presentation: [Loom Link](https://www.loom.com/share/a0cfa15e2f484de0a07d71880a62f001)
 
 ## Author(s)
 
